@@ -673,16 +673,16 @@ function UIController:_showPreview(info: any, assetId: number)
 	self._previewCreator.Text = ""
 	self._previewIdLabel.Text = "ID: " .. tostring(assetId)
 	self._previewDesc.Text    = info.description ~= "" and info.description or "No description provided."
-	
+
 	pcall(function()
 		if info.creator and type(info.creator) == "table" then
 			local name = info.creator.Name
 			local hasverifiedbadge = info.creator.HasVerifiedBadge
-			
+
 			self._previewCreator.Text = "By " .. tostring(PrepareDsiplayName(name, hasverifiedbadge))
 		end
 	end)
-	
+
 	if tonumber(assetId) and assetId ~= 0 then
 		self._thumbImg.Image = "rbxthumb://type=Asset&id=" .. assetId .. "&w=420&h=420"
 		self._thumbPlaceholder.Visible = false
@@ -770,7 +770,7 @@ function UIController:_onImport()
 
 		if err then
 			if err == "PERMISSION_DENIED" then
-				self._logger:error("Script injection permissions are not enabled. Go to Studio Settings → Security and allow plugin script injection.")
+				self._logger:error("Script injection permissions are not enabled. Go to Manage Plugin → Asset Importer Pro > allow plugin script injection.")
 			else
 				self._logger:error(err)
 			end
