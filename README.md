@@ -2,7 +2,7 @@
 
 **By Fox Jet Studios**
 
-Quickly **import and preview Roblox assets** by **ID or URL** right inside **Roblox Studio**. Asset Importer Pro makes fetching models, meshes, decals, and other assets **fast, visual, and hassle-free**—perfect for devs, designers, and content creators.
+Quickly **import and preview Roblox assets** by **ID or URL** right inside **Roblox Studio**. Asset Importer Pro makes fetching models, meshes, decals, and other assets **fast, visual, and hassle-free**, perfect for devs, designers, and content creators.
 
 ---
 
