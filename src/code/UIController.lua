@@ -368,7 +368,7 @@ function UIController:_buildUI()
 	makeLabel({
 		Size           = UDim2.new(1, -50, 1, -12),
 		Position       = UDim2.new(0, 42, 0, 6),
-		Text           = "Script injection permissions are required for LoadAsset to work.\nEnable plugin permissions in Studio Settings → Security.",
+		Text           = "Script injection permissions are required for LoadAsset to work.\nEnable plugin permissions in Manage Plugins → Asset Importer Pro > Permissions.",
 		Font           = Enum.Font.BuilderSans,
 		TextSize       = 11,
 		TextColor3     = C.WARN_TEXT,
@@ -673,16 +673,16 @@ function UIController:_showPreview(info: any, assetId: number)
 	self._previewCreator.Text = ""
 	self._previewIdLabel.Text = "ID: " .. tostring(assetId)
 	self._previewDesc.Text    = info.description ~= "" and info.description or "No description provided."
-	
+
 	pcall(function()
 		if info.creator and type(info.creator) == "table" then
 			local name = info.creator.Name
 			local hasverifiedbadge = info.creator.HasVerifiedBadge
-			
+
 			self._previewCreator.Text = "By " .. tostring(PrepareDsiplayName(name, hasverifiedbadge))
 		end
 	end)
-	
+
 	if tonumber(assetId) and assetId ~= 0 then
 		self._thumbImg.Image = "rbxthumb://type=Asset&id=" .. assetId .. "&w=420&h=420"
 		self._thumbPlaceholder.Visible = false
@@ -770,7 +770,7 @@ function UIController:_onImport()
 
 		if err then
 			if err == "PERMISSION_DENIED" then
-				self._logger:error("Script injection permissions are not enabled. Go to Studio Settings → Security and allow plugin script injection.")
+				self._logger:error("Script injection permissions are not enabled. Go to Manage Plugin → Asset Importer Pro > allow plugin script injection.")
 			else
 				self._logger:error(err)
 			end
