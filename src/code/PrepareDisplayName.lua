@@ -1,4 +1,4 @@
--- PrepareDisplayName.lua | Logger.lua | Fox Jet Studios
+-- Asset Importer Pro | PrepareDisplayName.lua | Fox Jet Studios
 
 local ICONS = {
 	Verified = "",
