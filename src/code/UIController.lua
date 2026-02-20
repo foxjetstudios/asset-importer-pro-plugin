@@ -368,7 +368,7 @@ function UIController:_buildUI()
 	makeLabel({
 		Size           = UDim2.new(1, -50, 1, -12),
 		Position       = UDim2.new(0, 42, 0, 6),
-		Text           = "Script injection permissions are required for LoadAsset to work.\nEnable plugin permissions in Studio Settings → Security.",
+		Text           = "Script injection permissions are required for LoadAsset to work.\nEnable plugin permissions in Manage Plugins → Asset Importer Pro > Permissions.",
 		Font           = Enum.Font.BuilderSans,
 		TextSize       = 11,
 		TextColor3     = C.WARN_TEXT,
