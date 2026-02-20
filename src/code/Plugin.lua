@@ -1,4 +1,4 @@
--- Asset Importer Pro | plugin.plugin.lua | Fox Jet Studios
+-- Asset Importer Pro | plugin.lua | Fox Jet Studios
 
 local toolbar = plugin:CreateToolbar("Fox Jet Studios's Plugins")
 local button  = toolbar:CreateButton(
