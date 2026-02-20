@@ -21,10 +21,10 @@ Quickly **import and preview Roblox assets** by **ID or URL** right inside **Rob
 
 ## Installation 🛠️
 
-1. Download the plugin `.rbxm` or `.rbxmx` file
-2. Open **Roblox Studio**
-3. Go to **Plugins → Manage Plugins → Import**
-4. Load Asset Importer Pro into your game
+1. Download the plugin `.rbxm` or `.rbxmx` file  
+2. Open Roblox Studio  
+3. Go to **Explorer → Plugin → Save as local plugin**  
+4. Load the plugin in your game
 
 ---
 
