@@ -63,8 +63,6 @@ Asset Importer Pro uses a robust pipeline:
 
 No external dependencies. Fully optimized for **Studio workflows**.
 
-<img width="389" height="533" alt="Screenshot" src="https://github.com/user-attachments/assets/bcefdd73-3039-4001-9a66-2a933b98fed8" />
-
 ---
 
 ## Requirements ⚠️
