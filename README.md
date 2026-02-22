@@ -1,8 +1,8 @@
-# Asset Importer Pro 🧩
+# Asset Importer Pro ⬇️
 
 **By Fox Jet Studios**
 
-Quickly **import and preview Roblox assets** by **ID or URL** right inside **Roblox Studio**. Asset Importer Pro makes fetching models, meshes, decals, and other assets **fast, visual, and hassle-free**, perfect for devs, designers, and content creators.
+Quickly **import and preview Roblox assets** by **ID or a URL** right inside of **Roblox Studio**. Asset Importer Pro makes fetching models, meshes, decals, and other assets **fast, and easy**.
 
 ---
 
@@ -21,7 +21,7 @@ Quickly **import and preview Roblox assets** by **ID or URL** right inside **Rob
 
 ## Installation 🛠️
 
-1. Download the plugin `.rbxm` or `.rbxmx` file  
+1. Download the plugin '.rbxm' file (you can find it in src)
 2. Open Roblox Studio  
 3. Go to **Explorer → Plugin → Save as local plugin**  
 4. Load the plugin in your game
@@ -32,12 +32,12 @@ Quickly **import and preview Roblox assets** by **ID or URL** right inside **Rob
 
 1. Open **Asset Importer Pro** from the **Plugins** tab
 2. Paste a **Roblox asset URL or numeric ID**
-3. Choose your **destination**
+3. Choose your **destination** instance
 4. Click **Preview** to check the asset visually
 5. Click **Import** to add it directly to your game
 6. Clear logs anytime using the **trash button**
 
-*The plugin shows logs for success, warnings, and errors in real time.*
+*The plugin shows logs for success, warnings, and errors in real time so you always know if something happened without needing to go to output.*
 
 ---
 
@@ -47,7 +47,7 @@ Quickly **import and preview Roblox assets** by **ID or URL** right inside **Rob
 * **ReplicatedStorage**
 * **ServerStorage**
 * **StarterGui**
-* **Selected Object** (dynamic import)
+* **Selected Object** (dynamic import > select a instance where the imported object will be parented to)
 
 ---
 
@@ -71,18 +71,17 @@ No external dependencies. Fully optimized for **Studio workflows**.
 
 * **Script injection permissions** must be enabled
 
-
 ---
 
 ## License 📜
 
 Released under the **MIT License**
 Free to **use, modify, and distribute**.
-See the LICENSE file for full details.
+Please see the LICENSE file for more details.
 
 ---
 
-## Support & Feedback 💌
+## Support & Feedback 😁
 
 * Questions or suggestions? Contact us via [Fox Jet Studios](https://foxjetstudios.com/contact)  
 * Follow us on social media [Fox Jet Studios](https://foxjetstudios.com/followus)  
